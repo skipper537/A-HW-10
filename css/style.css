@@ -22,12 +22,13 @@ body {
 
 .note {
     display: flex;
-    justify-content: center;
-    align-items: top;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
     width:100px;
     height:200px;
     font-size: 40px;
-    color: rgb(247, 243, 23);
+    color: rgb(210, 122, 40);
     border: 1px solid #fff;
     background: 50% url(../img/image_2023-01-18_19-18-52.png);
     border-radius: 15px;
@@ -36,5 +37,5 @@ body {
 
 .active{
     color: rgb(234, 3, 3);
-    border: 1px solid rgb(36, 20, 209);
+    border: 1px solid rgb(209, 206, 20);
  }

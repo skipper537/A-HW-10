@@ -11,36 +11,36 @@ const sound8 = new Audio("audio/zvuk-notyi-do-vo-vtoroy-oktave.mp3");
 
 function play(e) {
     switch (e) {
-        case "do1":
+        case "a":
             sound1.play();
             break;
-        case "re":
+        case "s":
             sound2.play();
             break;
-        case "mi":
+        case "d":
             sound3.play();
             break;
-        case "fa":
+        case "f":
             sound4.play();
             break;
-        case "solj":
+        case "g":
             sound5.play();
             break;
-        case "lja":
+        case "h":
             sound6.play();
             break;
-        case "si":
+        case "j":
             sound7.play();
             break;
-        case "do2":
+        case "k":
             sound8.play();
             break;
     }
 }
 
-document.addEventListener('notedown', function (e) {
-    play(e.note);
-    const notes = document.getElementById(`${e.note}`);
+document.addEventListener('keydown', function (e) {
+    play(e.key);
+    const notes = document.getElementById(`${e.key}`);
     notes.classList.toggle('active');
     setTimeout(function () {
        notes.classList.remove('active');
