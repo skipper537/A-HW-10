@@ -12,27 +12,35 @@ const sound8 = new Audio("audio/zvuk-notyi-do-vo-vtoroy-oktave.mp3");
 function play(e) {
     switch (e) {
         case "a":
+        case "ф":
             sound1.play();
             break;
         case "s":
+        case "і":
             sound2.play();
             break;
         case "d":
+        case "в":
             sound3.play();
             break;
         case "f":
+        case "а":
             sound4.play();
             break;
         case "g":
+        case "п":
             sound5.play();
             break;
         case "h":
+        case "р":
             sound6.play();
             break;
         case "j":
+        case "о":
             sound7.play();
             break;
         case "k":
+        case "л":
             sound8.play();
             break;
     }
