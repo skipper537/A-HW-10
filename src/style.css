@@ -1,0 +1,37 @@
+body {
+  background-image: url(../media/900x520_piano-min.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+button {
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    width:100px;
+    height:200px;
+    font-size: 40px;
+    color: rgb(210, 122, 40);
+    border: 1px solid #fff;
+    background: 50% url(../media/image_2023-01-18_19-18-52.png);
+    border-radius: 15px;
+    margin-right: 30px;
+}
+/* 
+button:hover {
+  background-color: white;
+  color: rgba(69, 69, 69, 0.77);
+  text-shadow: 1px 1px black;
+  font-size: 24px;
+} */
+.active {
+    color: rgb(234, 3, 3);
+    border: 1px solid rgb(209, 206, 20);
+}
+.soundboard {
+    width: 150vh;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    padding-top: 200px ;
+}
